@@ -131,6 +131,26 @@ a:active {
     color: white;
 }
 
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.full-name {
+    margin-left: 0;
+    color: #FAEBD7;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "slnt"0,
+        "CRSV"0.5,
+        "ELSH"0,
+        "ELXP"0;
+}
+
+
+
 /* MEDIA QUERIES - MOBILE SUPPORT */
 @media (max-width: 768px) {
     .header {
@@ -154,6 +174,6 @@ a:active {
     }
 
     .full-name {
-        text-align: center;
+        /* text-align: center; */
     }
 }
